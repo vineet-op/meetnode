@@ -6,3 +6,4 @@ node_modules/
 
 # Ignore Google API credentials and tokens
 credentials.json
+token.json

@@ -7,6 +7,7 @@ const process = require('process');
 const { authenticate } = require('@google-cloud/local-auth');
 const { google } = require('googleapis');
 const { auth } = require('google-auth-library');
+const { SpacesServiceClient } = require('@google-apps/meet').v2;
 
 const app = express();
 const PORT = process.env.PORT || 5000;
