@@ -3,3 +3,6 @@
 
 # Ignore node dependencies directory
 node_modules/
+
+# Ignore Google API credentials and tokens
+credentials.json
